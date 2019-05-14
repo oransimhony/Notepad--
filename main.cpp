@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     MainWindow w;
 
-    w.setWindowTitle(QObject::tr("++Notepad"));
+    w.setWindowTitle(QObject::tr("Notepad--"));
     w.setWindowIcon(QIcon("./images/favicon.ico"));
     w.show();
 

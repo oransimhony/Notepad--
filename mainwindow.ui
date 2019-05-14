@@ -45,6 +45,7 @@
     </property>
     <addaction name="actionNew"/>
     <addaction name="actionOpen"/>
+    <addaction name="actionSave"/>
     <addaction name="actionSave_as"/>
     <addaction name="actionPrint"/>
     <addaction name="actionExit"/>
@@ -149,6 +150,15 @@
   <action name="actionRedo">
    <property name="text">
     <string>Redo</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/Save.bmp</normaloff>:/images/Save.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>Save</string>
    </property>
   </action>
  </widget>
